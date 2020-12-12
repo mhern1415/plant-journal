@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+/* global gapi */
+import React, { Component } from "react";
 import Plants from './Plants'
 
-const Home = () => {
-  return (
-    <div>
-      <Plants />
-    </div>
-  );
-};
+class Home extends Component {
+
+
+ 
+  render() {
+    
+
+    return <div><Plants/></div>;
+  }
+}
+
 export default Home;
